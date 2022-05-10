@@ -12,3 +12,27 @@ function miFuncion(){
 miFuncion()
 
 console.log(texto)
+
+
+// ejercicio num 2 resubido
+/*Crea un nuevo archivo JS que contenga una lista con los siguientes elementos:
+
+- Tu nombre (string)
+
+- Tu edad (number)
+
+- ¿Eres desarrollador? (boolean)
+
+- Tu fecha de nacimiento (Date)
+
+- Tu libro favorito (Objeto con propiedades: titulo, autor, fecha, url)*/
+
+
+const miArray = ['Griselda',36,false,new Date(1996,09,30),
+{
+    titulo:'Cronica de una muerte anunciada',
+    autor: 'Gabriel Garcia Marquez',
+    año: 1981
+}
+]
+
